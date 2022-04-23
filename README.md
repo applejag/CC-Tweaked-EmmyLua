@@ -8,7 +8,7 @@ EmmyLua Annotations docs: <https://github.com/sumneko/lua-language-server/wiki/E
 ## Install files
 
 ```sh
-git clone https://github.com/jilleJr/CC-Tweaked-EmmyLua.git ~/Documents
+git clone https://github.com/jilleJr/CC-Tweaked-EmmyLua.git ~/Documents/CC-Tweaked-EmmyLua
 ```
 
 ## Install Lua-language-server
