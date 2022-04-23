@@ -37,7 +37,10 @@ May be available in your OS's package manager.
             "preloadFileSize": 1000
           },
           "runtime": {
-            "version": "Lua 5.1"
+            "version": "Lua 5.1",
+            "builtin": {
+              "os": "disable"
+            }
           },
           "diagnostics": {
             "enable": true,
