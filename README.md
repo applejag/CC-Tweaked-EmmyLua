@@ -5,6 +5,12 @@ Read from <https://tweaked.cc/>.
 
 EmmyLua Annotations docs: <https://github.com/sumneko/lua-language-server/wiki/EmmyLua-Annotations>
 
+## Install files
+
+```sh
+git clone https://github.com/jilleJr/CC-Tweaked-EmmyLua.git ~/Documents
+```
+
 ## Install Lua-language-server
 
 ### Install on NixOS
@@ -31,7 +37,7 @@ May be available in your OS's package manager.
         "Lua": {
           "workspace": {
             "library": [
-              "/home/yourname/Documents/cc-lua-base-lib"
+              "/home/yourname/Documents/CC-Tweaked-EmmyLua"
             ],
             "maxPreload": 2000,
             "preloadFileSize": 1000
