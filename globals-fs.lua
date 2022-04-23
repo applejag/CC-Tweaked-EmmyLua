@@ -139,7 +139,7 @@ function BinaryReadHandle.readAll() end
 --- - `"end"`: Relative to the end of the file.
 ---
 ---In case of success, `seek` returns the new file position from the beginning of the file.
----@param whence? "set"|"cur"|"end" Where the offset is relative to.
+---@param whence? '"set"'|'"cur"'|'"end"' Where the offset is relative to.
 ---@param offset? integer The offset to seek to.
 ---@return number|nil pos The new position.
 ---@return string|nil error The reason seeking failed.
@@ -177,7 +177,7 @@ function BinaryWriteHandle.flush() end
 --- - `"end"`: Relative to the end of the file.
 ---
 ---In case of success, `seek` returns the new file position from the beginning of the file.
----@param whence? "set"|"cur"|"end" Where the offset is relative to.
+---@param whence? '"set"'|'"cur"'|'"end"' Where the offset is relative to.
 ---@param offset? integer The offset to seek to.
 ---@return number|nil pos The new position.
 ---@return string|nil error The reason seeking failed.
@@ -193,13 +193,12 @@ function BinaryWriteHandle.seek(whence, offset) end
 ---
 ---The mode may also have a "b" at the end, which opens the file in "binary mode". This allows you to read binary files, as well as seek within a file.
 ---@param path string The path to the file to open.
----@param mode string The mode to open the file with.
----@return ReadHandle|BinaryReadHandle|WriteHandle|BinaryWriteHandle file A file handle object for the file; or nil if the file does not exist, or cannot be opened.
+---@param mode '"r"' The mode to open the file with.
+---@return ReadHandle file A file handle object for the file; or nil if the file does not exist, or cannot be opened.
 ---@return string|nil error A message explaining why the file cannot be opened.
----@overload fun(path: string, mode: "r"): ReadHandle
----@overload fun(path: string, mode: "rb"): BinaryReadHandle
----@overload fun(path: string, mode: "w"|"a"): WriteHandle
----@overload fun(path: string, mode: "wb"|"ab"): BinaryWriteHandle
+---@overload fun(path: string, mode: '"rb"'): BinaryReadHandle
+---@overload fun(path: string, mode: '"w"'|'"a"'): WriteHandle
+---@overload fun(path: string, mode: '"wb"'|'"ab"'): BinaryWriteHandle
 function fs.open(path, mode) end
 
 ---Returns the name of the mount that the specified path is located on.

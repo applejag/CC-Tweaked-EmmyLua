@@ -36,19 +36,19 @@ function turtle.turnRight() end
 ---Attempt to break the block in front of the turtle.
 ---
 ---This requires a turtle tool capable of breaking the block. Diamond pickaxes (mining turtles) can break any vanilla block, but other tools (such as axes) are more limited.
----@param side? "left"|"right" The specific tool to use. Should be "left" or "right".
+---@param side? '"left"'|'"right"' The specific tool to use. Should be "left" or "right".
 ---@return boolean success Whether a block was broken.
 ---@return string|nil error The reason no block was broken.
 function turtle.dig(side) end
 
 ---Attempt to break the block above the turtle. See dig for full details.
----@param side? "left"|"right" The specific tool to use. Should be "left" or "right".
+---@param side? '"left"'|'"right"' The specific tool to use. Should be "left" or "right".
 ---@return boolean success Whether a block was broken.
 ---@return string|nil error The reason no block was broken.
 function turtle.digUp(side) end
 
 ---Attempt to break the block below the turtle. See dig for full details.
----@param side? "left"|"right" The specific tool to use. Should be "left" or "right".
+---@param side? '"left"'|'"right"' The specific tool to use. Should be "left" or "right".
 ---@return boolean success Whether a block was broken.
 ---@return string|nil error The reason no block was broken.
 function turtle.digDown(side) end
@@ -135,19 +135,19 @@ function turtle.compareUp() end
 function turtle.compareDown() end
 
 ---Attack the entity in front of the turtle.
----@param side? "left"|"right" The specific tool to use. Should be "left" or "right".
+---@param side? '"left"'|'"right"' The specific tool to use. Should be "left" or "right".
 ---@return boolean success Whether an entity was attacked.
 ---@return string|nil error The reason nothing was attacked.
 function turtle.attack(side) end
 
 ---Attack the entity above the turtle.
----@param side? "left"|"right" The specific tool to use. Should be "left" or "right".
+---@param side? '"left"'|'"right"' The specific tool to use. Should be "left" or "right".
 ---@return boolean success Whether an entity was attacked.
 ---@return string|nil error The reason nothing was attacked.
 function turtle.attackUp(side) end
 
 ---Attack the entity below the turtle.
----@param side? "left"|"right" The specific tool to use. Should be "left" or "right".
+---@param side? '"left"'|'"right"' The specific tool to use. Should be "left" or "right".
 ---@return boolean success Whether an entity was attacked.
 ---@return string|nil error The reason nothing was attacked.
 function turtle.attackDown(side) end
