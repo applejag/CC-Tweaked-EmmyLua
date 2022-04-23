@@ -68,3 +68,17 @@ monitor.get<TAB>
        .getTextColor()
        ...etc
 ```
+
+## Printer
+
+```lua
+---@type printer
+local printer = peripheral.find("printer")
+
+printer.get<TAB>
+       .getCursorPos()
+       .getPaperSize()
+       .getInkLevel()
+       .getPaperLevel()
+```
+
