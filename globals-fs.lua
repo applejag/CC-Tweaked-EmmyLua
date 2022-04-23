@@ -7,7 +7,7 @@ fs = {}
 ---
 ---The root filesystem "/" is considered a mount, along with disk folders and the rom folder. Other programs (such as network shares) can exstend this to make other mount types by correctly assigning their return value for getDrive.
 ---@param path string The path to check.
----@return boolean If the path is mounted, rather than a normal file/folder.
+---@return boolean #If the path is mounted, rather than a normal file/folder.
 function fs.isDriveRoot(path) end
 
 ---Provides completion for a file or directory name, suitable for use with `_G.read`.
@@ -22,7 +22,7 @@ function fs.complete(path, location, include_files, include_dirs) end
 
 ---Returns a list of files in a directory.
 ---@param path string The path to list.
----@return string[] A table with a list of files in the directory.
+---@return string[] files A table with a list of files in the directory.
 function fs.list(path) end
 
 ---Combines several parts of a path into one full path, adding separators as needed.
@@ -43,7 +43,7 @@ function fs.getDir(path) end
 
 ---Returns the size of the specified file.
 ---@param path string The file to get the file size of.
----@return integer The size of the file, in bytes.
+---@return integer size The size of the file, in bytes.
 function fs.getSize(path) end
 
 ---Returns whether the specified path exists.
@@ -208,7 +208,7 @@ function fs.getDrive(path) end
 
 ---Returns the amount of free space available on the drive the path is located on.
 ---@param path string The path to check the free space for.
----@return number|"unlimited" The amount of free space available, in bytes, or "unlimited".
+---@return number|'"unlimited"' space The amount of free space available, in bytes, or "unlimited".
 function fs.getFreeSpace(path) end
 
 ---Searches for files matching a string with wildcards.
@@ -220,7 +220,7 @@ function fs.find(path) end
 
 ---Returns the capacity of the drive the path is located on.
 ---@param path string The path of the drive to get.
----@return number|nil The drive's capacity. This will be nil for "read-only" drives, such as the ROM or treasure disks.
+---@return number|nil capacity The drive's capacity. This will be nil for "read-only" drives, such as the ROM or treasure disks.
 function fs.getCapacity(path) end
 
 ---@class Attributes

@@ -28,7 +28,7 @@ function peripheral.getType(peripheral) end
 ---Check if a peripheral is of a particular type.
 ---@param peripheral string|Peripheral The name of the peripheral or a wrapped peripheral instance.
 ---@param peripheral_type string The type to check.
----@return boolean|nil If a peripheral has a particular type, or `nil` if it is not present.
+---@return boolean|nil #If a peripheral has a particular type, or `nil` if it is not present.
 function peripheral.hasType(peripheral, peripheral_type) end
 
 ---Get all available methods for the peripheral with the given name.

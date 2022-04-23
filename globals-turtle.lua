@@ -173,7 +173,7 @@ function turtle.suckUp(count) end
 function turtle.suckDown(count) end
 
 ---Get the maximum amount of fuel this turtle currently holds.
----@return integer|"unlimited" fuel The current amount of fuel a turtle this turtle has, or `"unlimited"` if turtles do not consume fuel when moving.
+---@return integer|'"unlimited"' fuel The current amount of fuel a turtle this turtle has, or `"unlimited"` if turtles do not consume fuel when moving.
 function turtle.getFuelLevel() end
 
 ---Refuel this turtle.
@@ -198,13 +198,13 @@ function turtle.compareTo(slot) end
 function turtle.transferTo(slot, count) end
 
 ---Get the currently selected slot.
----@return integer The current slot.
+---@return integer slot The current slot.
 function turtle.getSelectedSlot() end
 
 ---Get the maximum amount of fuel this turtle can hold.
 ---
 ---By default, normal turtles have a limit of 20,000 and advanced turtles of 100,000.
----@return integer|"unlimited" limit The maximum amount of fuel a turtle can hold, or `"unlimited"` if turtles do not consume fueld when moving.
+---@return integer|'"unlimited"' limit The maximum amount of fuel a turtle can hold, or `"unlimited"` if turtles do not consume fueld when moving.
 function turtle.getFuelLimit() end
 
 ---Equip (or unequip) an item on the left side of this turtle.
