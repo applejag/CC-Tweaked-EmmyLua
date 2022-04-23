@@ -5,6 +5,18 @@ Read from <https://tweaked.cc/>.
 
 EmmyLua Annotations docs: <https://github.com/sumneko/lua-language-server/wiki/EmmyLua-Annotations>
 
+## Preview
+
+### VS Code
+
+![](assets/screenshot-vscode-1.png)
+![](assets/screenshot-vscode-2.png)
+
+### (Neo)vim
+
+![](assets/screenshot-nvim-1.png)
+![](assets/screenshot-nvim-2.png)
+
 ## Install files
 
 ```sh
