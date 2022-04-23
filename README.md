@@ -80,7 +80,7 @@ Remaining stuff that's not documented:
   - [x] ~~fs~~
   - [x] ~~gps~~
   - [x] ~~help~~
-  - [ ] http
+  - [x] ~~http~~
   - [ ] io
   - [x] ~~keys~~
   - [ ] multishell
