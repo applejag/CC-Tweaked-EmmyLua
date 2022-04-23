@@ -84,7 +84,7 @@ Remaining stuff that's not documented:
   - [x] ~~http~~
   - [x] ~~io~~
   - [x] ~~keys~~
-  - [ ] multishell
+  - [x] ~~multishell~~
   - [x] ~~os~~
   - [ ] paintutils
   - [x] ~~parallel~~
