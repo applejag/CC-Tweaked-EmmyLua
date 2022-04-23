@@ -12,6 +12,8 @@ comment that only needs 2 dashes `--`.
 
 ## Command
 
+<img align="right" height="240" src="../assets/command.png"/>
+
 ```lua
 ---@type command
 local cmd = peripheral.find("command")
@@ -21,6 +23,8 @@ cmd.get<TAB>
 ```
 
 ## Computer
+
+<img align="right" height="240" src="../assets/computer.png"/>
 
 ```lua
 ---@type computer
@@ -32,6 +36,8 @@ computer.get<TAB>
 ```
 
 ## Drive
+
+<img align="right" height="240" src="../assets/drive.png"/>
 
 ```lua
 ---@type drive
@@ -46,6 +52,8 @@ drive.get<TAB>
 
 ## Modem
 
+<img align="right" height="240" src="../assets/modem.png"/>
+
 ```lua
 ---@type modem
 local modem = peripheral.find("modem")
@@ -58,6 +66,8 @@ modem.get<TAB>
 ```
 
 ## Monitor
+
+<img align="right" height="240" src="../assets/monitor.png"/>
 
 ```lua
 ---@type monitor
@@ -75,6 +85,8 @@ monitor.get<TAB>
 
 ## Printer
 
+<img align="right" height="240" src="../assets/printer.png"/>
+
 ```lua
 ---@type printer
 local printer = peripheral.find("printer")
@@ -87,6 +99,8 @@ printer.get<TAB>
 ```
 
 ## Speaker
+
+<img align="right" height="240" src="../assets/speaker.png"/>
 
 ```lua
 ---@type speaker
