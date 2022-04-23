@@ -221,28 +221,29 @@ function turtle.equipLeft() end
 ---@return string|nil error The reason equipping this item failed.
 function turtle.equipRight() end
 
----@class itemInspected : table<string,any>
+---@class BlockInfo : table<string,any>
 ---@field name string
 ---@field state? table<string,any>
 ---@field tags? table<string,boolean>
+---@field nbt? table<string,any>
 local _
 
 ---Get information about the block in front of the turtle.
 ---@return boolean success Whether there is a block in front of the turtle.
----@return itemInspected|string data Information about the block in front, or a message explaining that there is no block.
+---@return BlockInfo|string data Information about the block in front, or a message explaining that there is no block.
 function turtle.inspect() end
 
 ---Get information about the block above the turtle.
 ---@return boolean success Whether there is a block above the turtle.
----@return itemInspected|string data Information about the block above, or a message explaining that there is no block.
+---@return BlockInfo|string data Information about the block above, or a message explaining that there is no block.
 function turtle.inspectUp() end
 
 ---Get information about the block below the turtle.
 ---@return boolean success Whether there is a block below the turtle.
----@return itemInspected|string data Information about the block below, or a message explaining that there is no block.
+---@return BlockInfo|string data Information about the block below, or a message explaining that there is no block.
 function turtle.inspectDown() end
 
----@class itemDetail : table<string,any>
+---@class ItemInfo : table<string,any>
 ---@field name string
 ---@field displayName string
 ---@field count integer
@@ -257,7 +258,7 @@ local _
 ---Get detailed information about the item in the given slot.
 ---@param slot? integer The slot to get information about. Defaults to the selected slot.
 ---@param detailed? boolean Whether to include "detailed" information. When `true` the method will contain much more information about the item at the cost of taking longer to run.
----@return itemDetail|nil data Information about the given slot, or `nil` if it is empty.
+---@return ItemInfo|nil data Information about the given slot, or `nil` if it is empty.
 function turtle.getItemDetail(slot, detailed) end
 
 ---Craft a recipe based on the turtle's inventory.
