@@ -12,7 +12,7 @@ comment that only needs 2 dashes `--`.
 
 ## Command
 
-<img align="right" width="200" height="200" src="../assets/command.webp"/>
+<img align="right" width="160" height="160" src="../assets/command.webp"/>
 
 ```lua
 ---@type command
@@ -24,7 +24,7 @@ cmd.get<TAB>
 
 ## Computer
 
-<img align="right" width="200" height="200" src="../assets/computer.png"/>
+<img align="right" width="160" height="160" src="../assets/computer.png"/>
 
 ```lua
 ---@type computer
@@ -37,7 +37,7 @@ computer.get<TAB>
 
 ## Drive
 
-<img align="right" width="200" height="200" src="../assets/drive.png"/>
+<img align="right" width="160" height="160" src="../assets/drive.png"/>
 
 ```lua
 ---@type drive
@@ -52,7 +52,7 @@ drive.get<TAB>
 
 ## Modem
 
-<img align="right" width="200" height="200" src="../assets/modem.png"/>
+<img align="right" width="160" height="160" src="../assets/modem.png"/>
 
 ```lua
 ---@type modem
@@ -67,7 +67,7 @@ modem.get<TAB>
 
 ## Monitor
 
-<img align="right" width="200" height="200" src="../assets/monitor.png"/>
+<img align="right" width="160" height="160" src="../assets/monitor.png"/>
 
 ```lua
 ---@type monitor
@@ -85,7 +85,7 @@ monitor.get<TAB>
 
 ## Printer
 
-<img align="right" width="200" height="200" src="../assets/printer.png"/>
+<img align="right" width="160" height="160" src="../assets/printer.png"/>
 
 ```lua
 ---@type printer
@@ -100,7 +100,7 @@ printer.get<TAB>
 
 ## Speaker
 
-<img align="right" width="200" height="200" src="../assets/speaker.png"/>
+<img align="right" width="160" height="160" src="../assets/speaker.png"/>
 
 ```lua
 ---@type speaker
