@@ -27,6 +27,10 @@ May be available in your OS's package manager.
 
 ## Configure language server in coc.nvim
 
+```vim
+:CocConfig
+```
+
 ```json
   "languageserver": {
     "lua": {
