@@ -1,7 +1,7 @@
 # CC-Tweaked EmmyLua Annotations
 
 Based on CC-Tweaked v1.100.4 for Minecraft 1.18.2.
-Read from <https://tweaked.cc/>.
+Manually scraped from the docs: <https://tweaked.cc/>.
 
 ## What this repo does
 
