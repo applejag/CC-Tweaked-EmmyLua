@@ -3,6 +3,9 @@
 The LUA language server cannot automatically determine the peripheral type
 for you, so you have to annotate your code with the types.
 
+In the code blocks below, `<TAB>` represents you pressing <kbd>Tab</kbd> on your
+keyboard to expand the intellisense suggestions.
+
 ## Command
 
 ```lua
