@@ -53,6 +53,10 @@ function colors.packRGB(r, g, b) end
 ---@return number b The blue channel, will be between 0 and 1.
 function colors.unpackRGB(rgb) end
 
+---> **DEPRECATED**
+--->
+---> Use packRGB or unpackRGB directly.
+---
 ---Either calls `colors.packRGB` or `colors.unpackRGB,` depending on how many arguments it receives.
 ---@deprecated
 ---@param r number The red channel, should be between 0 and 1.
@@ -61,6 +65,10 @@ function colors.unpackRGB(rgb) end
 ---@return number color The combined hexadecimal color.
 function colors.rgb8(r, g, b) end
 
+---> **DEPRECATED**
+--->
+---> Use packRGB or unpackRGB directly.
+---
 ---Either calls `colors.packRGB` or `colors.unpackRGB,` depending on how many arguments it receives.
 ---@deprecated
 ---@param rgb number The combined hexadecimal color.
