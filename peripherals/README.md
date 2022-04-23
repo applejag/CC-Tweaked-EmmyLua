@@ -36,3 +36,16 @@ drive.get<TAB>
 		 .getAudioTitle()
 		 .getDiskID()
 ```
+
+## Modem
+
+```lua
+---@type modem
+local modem = peripheral.find("modem")
+
+modem.get<TAB>
+     .getNamesRemote()
+     .getTypeRemote(name)
+     .getMethodsRemote(name)
+     .getNameLocal()
+```
