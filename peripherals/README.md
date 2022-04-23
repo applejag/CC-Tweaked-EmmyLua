@@ -24,7 +24,7 @@ local computer = peripheral.find("computer")
 
 computer.get<TAB>
         .getID()
-				.getLabel()
+        .getLabel()
 ```
 
 ## Drive
@@ -35,9 +35,9 @@ local drive = peripheral.find("drive")
 
 drive.get<TAB>
      .getDiskLabel()
-		 .getMountPath()
-		 .getAudioTitle()
-		 .getDiskID()
+     .getMountPath()
+     .getAudioTitle()
+     .getDiskID()
 ```
 
 ## Modem
