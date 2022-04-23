@@ -82,3 +82,14 @@ printer.get<TAB>
        .getPaperLevel()
 ```
 
+## Speaker
+
+```lua
+---@type speaker
+local speaker = peripheral.find("speaker")
+
+speaker.play<TAB>
+       .playNote(instrument, volume?, pitch?)
+       .playSound(name, volume?, pitch?)
+       .playAudio(audio, volume?)
+```
