@@ -65,3 +65,63 @@ May be available in your OS's package manager.
     }
   }
 ```
+
+## TODO
+
+Remaining stuff that's not documented:
+
+- [ ] Globals:
+
+  - [x] ~~\_G~~
+  - [x] ~~colors~~
+  - [x] ~~colours~~
+  - [x] ~~commands~~
+  - [x] ~~disk~~
+  - [x] ~~fs~~
+  - [x] ~~gps~~
+  - [ ] help
+  - [ ] http
+  - [ ] io
+  - [x] ~~keys~~
+  - [ ] multishell
+  - [x] ~~os~~
+  - [ ] paintutils
+  - [x] ~~parallel~~
+  - [x] ~~peripheral~~
+  - [ ] pocket
+  - [x] ~~rednet~~
+  - [ ] redstone
+  - [x] ~~settings~~
+  - [x] ~~shell~~
+  - [x] ~~term~~
+  - [x] ~~textutils~~
+  - [x] ~~turtle~~
+  - [x] ~~vector~~
+  - [x] ~~window~~
+
+- [ ] Modules:
+
+  - [ ] cc.audio.dfpwm
+  - [ ] cc.completion
+  - [x] ~~cc.expect~~
+  - [ ] cc.image.nft
+  - [ ] cc.pretty
+  - [x] ~~cc.require~~
+  - [ ] cc.shell.completion
+  - [x] ~~cc.strings~~
+
+- [x] ~~Peripherals:~~
+
+  - [x] ~~command~~
+  - [x] ~~computer~~
+  - [x] ~~drive~~
+  - [x] ~~modem~~
+  - [x] ~~monitor~~
+  - [x] ~~printer~~
+  - [x] ~~speaker~~
+
+- [x] ~~Generic peripherals:~~
+
+  - [x] ~~energy\_storage~~
+  - [x] ~~fluid\_storage~~
+  - [x] ~~inventory~~
