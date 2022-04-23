@@ -49,7 +49,8 @@ May be available in your OS's package manager.
           "runtime": {
             "version": "Lua 5.1",
             "builtin": {
-              "os": "disable"
+              "os": "disable",
+              "io": "disable"
             }
           },
           "diagnostics": {
@@ -81,7 +82,7 @@ Remaining stuff that's not documented:
   - [x] ~~gps~~
   - [x] ~~help~~
   - [x] ~~http~~
-  - [ ] io
+  - [x] ~~io~~
   - [x] ~~keys~~
   - [ ] multishell
   - [x] ~~os~~
