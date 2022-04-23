@@ -16,7 +16,7 @@ git clone https://github.com/jilleJr/CC-Tweaked-EmmyLua.git ~/Documents/CC-Tweak
 ### Install on NixOS
 
 ```sh
-nix-env -iA sumneko-lua-language-server
+nix-env -i sumneko-lua-language-server
 ```
 
 ### Install on other
