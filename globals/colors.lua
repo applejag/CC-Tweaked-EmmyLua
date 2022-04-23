@@ -2,37 +2,37 @@
 ---The Colors API allows you to manipulate sets of colors.
 ---@class ColorAPI
 colors = {
-  ---White: Written as **`0`** in paint files and term.blit, has a default terminal colour of #F0F0F0.
+  ---White: Written as **`0`** in paint files and term.blit, has a default terminal color of #F0F0F0.
   white = 1,
-  ---Orange: Written as **`1`** in paint files and term.blit, has a default terminal colour of #F2B233.
+  ---Orange: Written as **`1`** in paint files and term.blit, has a default terminal color of #F2B233.
   orange = 2,
-  ---Magenta: Written as **`2`** in paint files and term.blit, has a default terminal colour of #E57FD8.
+  ---Magenta: Written as **`2`** in paint files and term.blit, has a default terminal color of #E57FD8.
   magenta = 4,
-  ---Light blue: Written as **`3`** in paint files and `term.blit`, has a default terminal colour of #99B2F2.
+  ---Light blue: Written as **`3`** in paint files and `term.blit`, has a default terminal color of #99B2F2.
   lightBlue = 8,
-  ---Yellow: Written as **`4`** in paint files and `term.blit`, has a default terminal colour of #DEDE6C.
+  ---Yellow: Written as **`4`** in paint files and `term.blit`, has a default terminal color of #DEDE6C.
   yellow = 16,
-  ---Lime: Written as **`5`** in paint files and `term.blit`, has a default terminal colour of #7FCC19.
+  ---Lime: Written as **`5`** in paint files and `term.blit`, has a default terminal color of #7FCC19.
   lime = 32,
-  ---Pink: Written as **`6`** in paint files and `term.blit`, has a default terminal colour of #F2B2CC.
+  ---Pink: Written as **`6`** in paint files and `term.blit`, has a default terminal color of #F2B2CC.
   pink = 64,
-  ---Gray: Written as **`7`** in paint files and `term.blit`, has a default terminal colour of #4C4C4C.
+  ---Gray: Written as **`7`** in paint files and `term.blit`, has a default terminal color of #4C4C4C.
   gray = 128,
-  ---Light gray: Written as **`8`** in paint files and `term.blit`, has a default terminal colour of #999999.
+  ---Light gray: Written as **`8`** in paint files and `term.blit`, has a default terminal color of #999999.
   lightGray = 256,
-  ---Cyan: Written as **`9`** in paint files and `term.blit`, has a default terminal colour of #4C99B2.
+  ---Cyan: Written as **`9`** in paint files and `term.blit`, has a default terminal color of #4C99B2.
   cyan = 512,
-  ---Purple: Written as **`a`** in paint files and `term.blit`, has a default terminal colour of #B266E5.
+  ---Purple: Written as **`a`** in paint files and `term.blit`, has a default terminal color of #B266E5.
   purple = 1024,
-  ---Blue: Written as **`b`** in paint files and `term.blit`, has a default terminal colour of #3366CC.
+  ---Blue: Written as **`b`** in paint files and `term.blit`, has a default terminal color of #3366CC.
   blue = 2048,
-  ---Brown: Written as **`c`** in paint files and `term.blit`, has a default terminal colour of #7F664C.
+  ---Brown: Written as **`c`** in paint files and `term.blit`, has a default terminal color of #7F664C.
   brown = 4096,
-  ---Green: Written as **`d`** in paint files and `term.blit`, has a default terminal colour of #57A64E.
+  ---Green: Written as **`d`** in paint files and `term.blit`, has a default terminal color of #57A64E.
   green = 8192,
-  ---Red: Written as **`e`** in paint files and `term.blit`, has a default terminal colour of #CC4C4C.
+  ---Red: Written as **`e`** in paint files and `term.blit`, has a default terminal color of #CC4C4C.
   red = 16384,
-  ---Black: Written as **`f`** in paint files and `term.blit`, has a default terminal colour of #111111.
+  ---Black: Written as **`f`** in paint files and `term.blit`, has a default terminal color of #111111.
   black = 32768,
 }
 
