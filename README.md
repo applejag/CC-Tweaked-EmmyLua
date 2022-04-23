@@ -79,7 +79,7 @@ Remaining stuff that's not documented:
   - [x] ~~disk~~
   - [x] ~~fs~~
   - [x] ~~gps~~
-  - [ ] help
+  - [x] ~~help~~
   - [ ] http
   - [ ] io
   - [x] ~~keys~~
