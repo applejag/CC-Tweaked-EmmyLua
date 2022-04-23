@@ -1,10 +1,14 @@
 # Peripherals
 
 The LUA language server cannot automatically determine the peripheral type
-for you, so you have to annotate your code with the types.
+for you, so you have to annotate your code with the types, which is done by
+the [`---@type` EmmyLua annotation](https://github.com/sumneko/lua-language-server/wiki/EmmyLua-Annotations#types-and-type).
 
 In the code blocks below, `<TAB>` represents you pressing <kbd>Tab</kbd> on your
 keyboard to expand the intellisense suggestions.
+
+:warning: Note that there must be 3 dashes `---`, compared to a regular LUA
+comment that only needs 2 dashes `--`.
 
 ## Command
 
