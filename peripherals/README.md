@@ -52,3 +52,19 @@ modem.get<TAB>
      .getMethodsRemote(name)
      .getNameLocal()
 ```
+
+## Monitor
+
+```lua
+---@type monitor
+local monitor = peripheral.find("monitor")
+
+monitor.get<TAB>
+       .getTextScale()
+       .getCursorPos()
+       .getCursorBlink()
+       .getSize()
+       .getTextColour()
+       .getTextColor()
+       ...etc
+```
