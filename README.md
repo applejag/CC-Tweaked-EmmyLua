@@ -126,7 +126,7 @@ Remaining stuff that's not documented:
   - [x] cc.completion
   - [x] cc.expect
   - [x] cc.image.nft
-  - [ ] cc.pretty
+  - [x] cc.pretty
   - [x] cc.require
   - [ ] cc.shell.completion
   - [x] cc.strings
