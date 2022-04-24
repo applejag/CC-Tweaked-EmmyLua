@@ -87,9 +87,7 @@ correct path to the cloned CC-Tweaked-EmmyLua repo:
 }
 ```
 
-## TODO
-
-Remaining stuff that's not documented:
+## Existing documentation
 
 - [x] Globals:
 
@@ -120,7 +118,7 @@ Remaining stuff that's not documented:
   - [x] vector
   - [x] window
 
-- [ ] Modules:
+- [x] Modules:
 
   - [x] cc.audio.dfpwm
   - [x] cc.completion
@@ -128,7 +126,7 @@ Remaining stuff that's not documented:
   - [x] cc.image.nft
   - [x] cc.pretty
   - [x] cc.require
-  - [ ] cc.shell.completion
+  - [x] cc.shell.completion
   - [x] cc.strings
 
 - [x] Peripherals:
