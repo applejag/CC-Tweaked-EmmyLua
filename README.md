@@ -123,7 +123,7 @@ Remaining stuff that's not documented:
 - [ ] Modules:
 
   - [x] cc.audio.dfpwm
-  - [ ] cc.completion
+  - [x] cc.completion
   - [x] cc.expect
   - [ ] cc.image.nft
   - [ ] cc.pretty
