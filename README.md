@@ -106,7 +106,7 @@ Remaining stuff that's not documented:
   - [x] ~~keys~~
   - [x] ~~multishell~~
   - [x] ~~os~~
-  - [ ] paintutils
+  - [x] ~~paintutils~~
   - [x] ~~parallel~~
   - [x] ~~peripheral~~
   - [ ] pocket
