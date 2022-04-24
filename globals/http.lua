@@ -41,7 +41,7 @@ local _
 ---@param binary? boolean Whether to make a binary HTTP request. If true, the body will not be UTF-8 encoded, and the received response will not be decoded.
 ---@return Response|nil response The resulting http response, which can be read from, or `nil` when the http request failed, such as in the event of a 404 error or connection timeout..
 ---@return string|nil error A message detailing why the request failed.
----@return Response|nil The failing http response, if available.
+---@return Response? response The failing http response, if available.
 ---@overload fun(request: GetRequest): Response|nil, string|nil, Response|nil
 function http.get(url, headers, binary) end
 
@@ -52,7 +52,7 @@ function http.get(url, headers, binary) end
 ---@param binary? boolean Whether to make a binary HTTP request. If true, the body will not be UTF-8 encoded, and the received response will not be decoded.
 ---@return Response|nil response The resulting http response, which can be read from, or `nil` when the http request failed, such as in the event of a 404 error or connection timeout..
 ---@return string? error A message detailing why the request failed.
----@return Response? The failing http response, if available.
+---@return Response? response The failing http response, if available.
 ---@overload fun(request: Request): Response|nil, string|nil, Response|nil
 function http.post(url, body, headers, binary) end
 

@@ -23,5 +23,5 @@ function computer.getID() end
 function computer.isOn() end
 
 ---Get the other computer's label.
----@return string|nil The computer's label.
+---@return string|nil label The computer's label.
 function computer.getLabel() end

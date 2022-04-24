@@ -95,7 +95,7 @@ function Vector:dot(o) end
 function Vector:cross(o) end
 
 ---Get the length (also referred to as magnitude) of this vector.
----@return number The length of this vector.
+---@return number length The length of this vector.
 function Vector:length() end
 
 ---Divide this vector by its length, producing with the same direction, but of length 1.

@@ -113,7 +113,7 @@ function io.flush() end
 
 ---Get or set the current input file.
 ---@param file? Handle|string The new input file, either as a file path or pre-existing handle.
----@return Handle The current input file.
+---@return Handle file The current input file.
 function io.input(file) end
 
 ---Opens the given file name in read mode and returns an iterator that, each time it is called, returns a new line from the file.

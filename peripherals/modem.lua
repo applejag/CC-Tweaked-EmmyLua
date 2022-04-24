@@ -94,7 +94,7 @@ function modem.getMethodsRemote(name) end
 ---@param remoteName string The name of the peripheral to invoke the method on.
 ---@param method string The name of the method
 ---@param ... any Additional arguments to pass to the method
----@return ... The return value of the peripheral method.
+---@return ... #The return value of the peripheral method.
 function modem.callRemote(remoteName, method, ...) end
 
 ---Returns the network name of the current computer, if the modem is on. This may be used by other computers on the network to wrap this computer as a peripheral.
@@ -102,5 +102,5 @@ function modem.callRemote(remoteName, method, ...) end
 ---> **NOTE**
 --->
 ---> This function only appears on wired modems. Check `isWireless` returns false before calling it.
----@return string|nil The current computer's name on the wired network.
+---@return string|nil name The current computer's name on the wired network.
 function modem.getNameLocal() end
