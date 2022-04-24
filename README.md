@@ -93,59 +93,59 @@ Remaining stuff that's not documented:
 
 - [ ] Globals:
 
-  - [x] ~~\_G~~
-  - [x] ~~colors~~
-  - [x] ~~colours~~
-  - [x] ~~commands~~
-  - [x] ~~disk~~
-  - [x] ~~fs~~
-  - [x] ~~gps~~
-  - [x] ~~help~~
-  - [x] ~~http~~
-  - [x] ~~io~~
-  - [x] ~~keys~~
-  - [x] ~~multishell~~
-  - [x] ~~os~~
-  - [x] ~~paintutils~~
-  - [x] ~~parallel~~
-  - [x] ~~peripheral~~
-  - [x] ~~pocket~~
-  - [x] ~~rednet~~
+  - [x] \_G
+  - [x] colors
+  - [x] colours
+  - [x] commands
+  - [x] disk
+  - [x] fs
+  - [x] gps
+  - [x] help
+  - [x] http
+  - [x] io
+  - [x] keys
+  - [x] multishell
+  - [x] os
+  - [x] paintutils
+  - [x] parallel
+  - [x] peripheral
+  - [x] pocket
+  - [x] rednet
   - [ ] redstone
-  - [x] ~~settings~~
-  - [x] ~~shell~~
-  - [x] ~~term~~
-  - [x] ~~textutils~~
-  - [x] ~~turtle~~
-  - [x] ~~vector~~
-  - [x] ~~window~~
+  - [x] settings
+  - [x] shell
+  - [x] term
+  - [x] textutils
+  - [x] turtle
+  - [x] vector
+  - [x] window
 
 - [ ] Modules:
 
   - [ ] cc.audio.dfpwm
   - [ ] cc.completion
-  - [x] ~~cc.expect~~
+  - [x] cc.expect
   - [ ] cc.image.nft
   - [ ] cc.pretty
-  - [x] ~~cc.require~~
+  - [x] cc.require
   - [ ] cc.shell.completion
-  - [x] ~~cc.strings~~
+  - [x] cc.strings
 
-- [x] ~~Peripherals:~~
+- [x] Peripherals:
 
-  - [x] ~~command~~
-  - [x] ~~computer~~
-  - [x] ~~drive~~
-  - [x] ~~modem~~
-  - [x] ~~monitor~~
-  - [x] ~~printer~~
-  - [x] ~~speaker~~
+  - [x] command
+  - [x] computer
+  - [x] drive
+  - [x] modem
+  - [x] monitor
+  - [x] printer
+  - [x] speaker
 
-- [x] ~~Generic peripherals:~~
+- [x] Generic peripherals:
 
-  - [x] ~~energy\_storage~~
-  - [x] ~~fluid\_storage~~
-  - [x] ~~inventory~~
+  - [x] energy\_storage
+  - [x] fluid\_storage
+  - [x] inventory
 
 ## Install on NixOS
 
