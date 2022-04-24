@@ -125,7 +125,7 @@ Remaining stuff that's not documented:
   - [x] cc.audio.dfpwm
   - [x] cc.completion
   - [x] cc.expect
-  - [ ] cc.image.nft
+  - [x] cc.image.nft
   - [ ] cc.pretty
   - [x] cc.require
   - [ ] cc.shell.completion
