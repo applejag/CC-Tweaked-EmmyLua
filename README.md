@@ -91,7 +91,7 @@ correct path to the cloned CC-Tweaked-EmmyLua repo:
 
 Remaining stuff that's not documented:
 
-- [ ] Globals:
+- [x] Globals:
 
   - [x] \_G
   - [x] colors
@@ -111,7 +111,7 @@ Remaining stuff that's not documented:
   - [x] peripheral
   - [x] pocket
   - [x] rednet
-  - [ ] redstone
+  - [x] redstone
   - [x] settings
   - [x] shell
   - [x] term
