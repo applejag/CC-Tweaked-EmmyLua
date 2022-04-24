@@ -109,7 +109,7 @@ Remaining stuff that's not documented:
   - [x] ~~paintutils~~
   - [x] ~~parallel~~
   - [x] ~~peripheral~~
-  - [ ] pocket
+  - [x] ~~pocket~~
   - [x] ~~rednet~~
   - [ ] redstone
   - [x] ~~settings~~
